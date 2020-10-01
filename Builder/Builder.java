@@ -96,7 +96,7 @@ public static void main(String[] args) {
     System.out.println(user2);
  
     User user3 = new User.UserBuilder("Super", "Man")
-    //No age, phone, address
+    // No age, phone, address
     .build();
  
     System.out.println(user3);
